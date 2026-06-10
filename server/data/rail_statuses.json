@@ -1,0 +1,8 @@
+[
+  { "rail_reference": "RAIL-ACH-9001", "payment_id": "P9001", "rail_type": "ach", "status": "in_transit", "status_code": "ACH-20", "status_description": "Originated, awaiting settlement window", "last_updated": "2026-06-08T16:00:00Z" },
+  { "rail_reference": "RAIL-ACH-9002", "payment_id": "P9002", "rail_type": "ach", "status": "in_transit", "status_code": "ACH-20", "status_description": "Originated, awaiting settlement window", "last_updated": "2026-06-09T09:00:00Z" },
+  { "rail_reference": "RAIL-VC-9010", "payment_id": "P9010", "rail_type": "virtual_card", "status": "cleared", "status_code": "VC-00", "status_description": "Card authorized and settled", "last_updated": "2026-06-08T14:30:00Z" },
+  { "rail_reference": "RAIL-ACH-9003", "payment_id": "P9003", "rail_type": "ach", "status": "returned", "status_code": "R03", "status_description": "No account / unable to locate account", "last_updated": "2026-06-08T07:10:00Z" },
+  { "rail_reference": "RAIL-CHK-9004", "payment_id": "P9004", "rail_type": "check", "status": "returned", "status_code": "CHK-RTS", "status_description": "Returned to sender - undeliverable address", "last_updated": "2026-06-06T12:00:00Z" },
+  { "rail_reference": "RAIL-CHK-7701", "payment_id": "P7701", "rail_type": "check", "status": "issued", "status_code": "CHK-ISS", "status_description": "Check issued, not yet presented for payment", "last_updated": "2026-06-09T00:00:00Z" }
+]

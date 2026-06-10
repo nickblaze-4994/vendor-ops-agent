@@ -1,0 +1,13 @@
+[
+  {
+    "request_id": "VUR-1001",
+    "vendor_id": "V1003",
+    "request_type": "address_update",
+    "submitted_by": "accounts@abc-supplies.com",
+    "submitted_channel": "email",
+    "verification_status": "verified",
+    "risk_level": "low",
+    "requested_fields": ["remit_to_address"],
+    "status": "portal_link_sent"
+  }
+]

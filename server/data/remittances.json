@@ -1,0 +1,18 @@
+[
+  {
+    "remittance_id": "R5001",
+    "payment_id": "P9001",
+    "invoice_ids": ["8842"],
+    "generated_at": "2026-06-08T09:15:00Z",
+    "delivery_status": "delivered",
+    "approved_recipient": "ap@acme-industrial.com"
+  },
+  {
+    "remittance_id": "R5003",
+    "payment_id": "P9010",
+    "invoice_ids": ["1120", "1121", "1125"],
+    "generated_at": "2026-06-08T14:02:00Z",
+    "delivery_status": "delivered",
+    "approved_recipient": "ap@brightway.com"
+  }
+]

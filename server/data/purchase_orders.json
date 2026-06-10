@@ -1,0 +1,10 @@
+[
+  { "po_number": "PO-55012", "vendor_id": "V1001", "customer_id": "C001", "po_amount": 4500.0, "currency": "USD", "status": "closed", "buyer_owner": "li.wong@acmecorp.com", "receipt_status": "received" },
+  { "po_number": "PO-55090", "vendor_id": "V1001", "customer_id": "C001", "po_amount": 2200.0, "currency": "USD", "status": "closed", "buyer_owner": "li.wong@acmecorp.com", "receipt_status": "received" },
+  { "po_number": "PO-3002",  "vendor_id": "V1001", "customer_id": "C001", "po_amount": 45000.0, "currency": "USD", "status": "open", "buyer_owner": "dana.kim@acmecorp.com", "receipt_status": "received" },
+  { "po_number": "PO-55130", "vendor_id": "V1001", "customer_id": "C001", "po_amount": 9800.0, "currency": "USD", "status": "open", "buyer_owner": "maria.chen@acmecorp.com", "receipt_status": "received" },
+  { "po_number": "PO-77009", "vendor_id": "V1002", "customer_id": "C001", "po_amount": 1400.0, "currency": "USD", "status": "open", "buyer_owner": "dev.patel@acmecorp.com", "receipt_status": "received" },
+  { "po_number": "PO-77012", "vendor_id": "V1002", "customer_id": "C001", "po_amount": 1150.0, "currency": "USD", "status": "open", "buyer_owner": "dev.patel@acmecorp.com", "receipt_status": "pending" },
+  { "po_number": "PO-88015", "vendor_id": "V1003", "customer_id": "C002", "po_amount": 2000.0, "currency": "USD", "status": "closed", "buyer_owner": "raj.iyer@acmecorp.com", "receipt_status": "received" },
+  { "po_number": "PO-99005", "vendor_id": "V1004", "customer_id": "C002", "po_amount": 3300.0, "currency": "USD", "status": "open", "buyer_owner": "raj.iyer@acmecorp.com", "receipt_status": "received" }
+]

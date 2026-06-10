@@ -1,0 +1,5 @@
+[
+  { "receipt_id": "GR-3002", "po_number": "PO-3002", "vendor_id": "V1001", "received_amount": 45000.0, "received_quantity": 300, "receipt_status": "confirmed", "confirmed_by": "dana.kim@acmecorp.com", "confirmation_date": "2026-06-03" },
+  { "receipt_id": "GR-55130", "po_number": "PO-55130", "vendor_id": "V1001", "received_amount": 9800.0, "received_quantity": 40, "receipt_status": "confirmed", "confirmed_by": "maria.chen@acmecorp.com", "confirmation_date": "2026-06-04" },
+  { "receipt_id": "GR-77009", "po_number": "PO-77009", "vendor_id": "V1002", "received_amount": 1400.0, "received_quantity": 70, "receipt_status": "confirmed", "confirmed_by": "dev.patel@acmecorp.com", "confirmation_date": "2026-06-05" }
+]

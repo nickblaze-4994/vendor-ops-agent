@@ -1,0 +1,12 @@
+[
+  {
+    "campaign_id": "OC-2001",
+    "vendor_id": "V1003",
+    "goal": "convert_check_to_electronic",
+    "message_template": "onboarding_invite_v2",
+    "send_date": "2026-06-01",
+    "follow_up_count": 1,
+    "status": "awaiting_response",
+    "response_received": false
+  }
+]

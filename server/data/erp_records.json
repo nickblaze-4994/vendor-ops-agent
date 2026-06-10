@@ -1,0 +1,35 @@
+[
+  {
+    "erp_record_id": "ERP-8842",
+    "customer_id": "C001",
+    "invoice_id": "8842",
+    "payment_id": "P9001",
+    "erp_invoice_status": "unpaid",
+    "erp_payment_status": "not_posted",
+    "gl_posting_status": "pending",
+    "last_sync_time": "2026-06-07T22:00:00Z",
+    "sync_error": null
+  },
+  {
+    "erp_record_id": "ERP-9010",
+    "customer_id": "C001",
+    "invoice_id": "1120",
+    "payment_id": "P9010",
+    "erp_invoice_status": "paid",
+    "erp_payment_status": "posted",
+    "gl_posting_status": "missing",
+    "last_sync_time": "2026-06-08T18:00:00Z",
+    "sync_error": "GL export job failed for batch 2026-06-08"
+  },
+  {
+    "erp_record_id": "ERP-1007",
+    "customer_id": "C001",
+    "invoice_id": "INV-1007",
+    "payment_id": "P9002",
+    "erp_invoice_status": "paid",
+    "erp_payment_status": "posted",
+    "gl_posting_status": "posted",
+    "last_sync_time": "2026-06-09T06:00:00Z",
+    "sync_error": null
+  }
+]
