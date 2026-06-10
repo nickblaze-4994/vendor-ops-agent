@@ -108,3 +108,11 @@ numbers, internal risk scores, or other vendors' data.
 
 No real emails are sent (outreach is drafted + status proposed). No real money
 movement, ERP writes, or bank changes. Mock data only.
+
+## Deployment
+
+Live at https://vendor-ops-agent.vercel.app — deployed from this repo via the
+Vercel Git integration (every push to `main` triggers a production deploy;
+branches get preview URLs). API runs as a single serverless function
+([api/index.js](api/index.js)); the web app is served statically from `web/dist`.
+To enable the real LLM in production: `npx vercel env add ANTHROPIC_API_KEY production`.
