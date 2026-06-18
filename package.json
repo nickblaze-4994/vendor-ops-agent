@@ -9,6 +9,8 @@
     "dev:api": "npm --prefix server run dev",
     "dev:web": "npm --prefix web run dev",
     "test": "npm --prefix server test",
+    "build": "npm --prefix web install && npm --prefix web run build",
+    "start": "node server/index.js",
     "deploy": "vercel deploy --prod"
   },
   "dependencies": {

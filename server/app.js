@@ -1,7 +1,11 @@
 // Express app, exported without a listener so it can run both locally
-// (server/index.js) and as a Vercel serverless function (api/index.js).
+// (server/index.js), as a Vercel serverless function (api/index.js), or as a
+// single Node service that also serves the built web app (Render/Railway/etc.).
 import express from 'express';
 import cors from 'cors';
+import { existsSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { config, llmEnabled } from './services/config.js';
 import { processMessage } from './agents/router.js';
 import { getLog, getMetrics, resetLog } from './services/auditLog.js';
@@ -82,5 +86,16 @@ app.get('/api/vendors', (_req, res) =>
     })),
   ),
 );
+
+// Serve the built web app when running as a single service (Render/Railway/etc.).
+// On Vercel the static files are served by the platform, so this is a no-op there.
+const webDist = join(dirname(fileURLToPath(import.meta.url)), '..', 'web', 'dist');
+if (existsSync(webDist)) {
+  app.use(express.static(webDist));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api/')) return next();
+    res.sendFile(join(webDist, 'index.html'));
+  });
+}
 
 export default app;
